@@ -23,7 +23,4 @@ class GetMovieError extends GetMovieState{}
 class GetMovieEmpty extends GetMovieState{
   final String message;
   GetMovieEmpty(this.message);
-
-
-
 }
